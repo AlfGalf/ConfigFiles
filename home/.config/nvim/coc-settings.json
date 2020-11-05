@@ -1,0 +1,12 @@
+{
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+      "${env:SPARK_HOME}/python",
+      "${env:SPARK_HOME}/python/pyspark"
+    ],
+    "clangd.path": "/Users/alfierichards/.config/coc/extensions/coc-clangd-data/install/10.0.0/clangd_10.0.0/bin/clangd",
+    "markdownlint.config": {
+    "default": true,
+    "whitespace": false
+  }
+}

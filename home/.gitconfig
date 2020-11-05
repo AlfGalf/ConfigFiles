@@ -1,0 +1,16 @@
+[user]
+	name = Alfie Richards
+	email = alfierchrds@gmail.com
+[core]
+	excludesfile = /Users/alfierichards/.gitignore_global
+	autocrlf = input
+	editor = nvim
+[commit]
+	template = /Users/alfierichards/.stCommitMsg
+[alias]
+	graph = log --all --graph --decorate --oneline
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
