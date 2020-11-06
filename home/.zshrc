@@ -1,10 +1,4 @@
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/alfierichards/.oh-my-zsh"
-
 # Oh my ZSH theme
 ZSH_THEME="agnoster"
 
@@ -18,6 +12,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git command-not-found autojump zsh-syntax-highlighting zsh-autosuggestions)
 
+export ZSH=/Users/alfierichards/.oh-my-zsh/
 # Add oh-my-zsh 
 source $ZSH/oh-my-zsh.sh
 
@@ -43,5 +38,5 @@ bindkey -v
 # Alias for NOT using rm unless I really mean to
 alias rm="echo Don't use rm! Use rmtrash instead (or /bin/rm)"
 
-export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=gray"
 
