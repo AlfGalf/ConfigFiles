@@ -8,5 +8,7 @@
     "markdownlint.config": {
     "default": true,
     "whitespace": false
-  }
+  },
+  "markdownlint.onChange": false
+
 }

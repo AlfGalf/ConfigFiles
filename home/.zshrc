@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 prompt_context(){}
 
 # Run tmux automatically on zsh lunch
-if [ "$TMUX" = "" ]; then tmux attach -t TMUX || tmux new -s TMUX; fi
+if [ "$TMUX" = "" ] && [ "$TERM" != "xterm" ]; then tmux attach -t TMUX || tmux new -s TMUX; fi
 
 # Set default terminal behaviour to emulate vim 
 bindkey -v
