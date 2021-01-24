@@ -1,6 +1,6 @@
 
 # Oh my ZSH theme
-ZSH_THEME="agnoster"
+ZSH_THEME="rkj-repos"
 
 # Use a sansible date format...
 HIST_STAMPS="dd/mm/yyyy"
@@ -10,13 +10,17 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-not-found autojump zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git 
+  command-not-found 
+  autojump 
+  zsh-syntax-highlighting 
+  zsh-autosuggestions
+  osx)
 
 export ZSH=/Users/alfierichards/.oh-my-zsh/
+
 # Add oh-my-zsh 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
 
 # You may need to manually set your language environment
  export LANG=en_UK.UTF-8
